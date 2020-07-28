@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(56, 59, 59);
+}
+header {
+  padding: 100px 60px;
+  margin: 0;
+  background-color: rgba(22, 56, 119, 0.89);
+  height: 300px;
+  text-align: left;
+  display: grid;
+  place-content: center;
+  background-image: url(../img/cats_blue_eyes_animals_pets_4288x2848.jpg);
+  /* background-image: url(..); */
+  background-size: cover;
+  /* background-position: center; */
+  /* font-size: 80px; */
+  /* font-weight: 300px; */
+  color: azure;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  /* background-color: white; */
+}
+.main-title {
+  font-size: 80px;
+  font-weight: 800px;
+  color: azure;
+}
+/* NAVIGATION TAB */
+nav {
+  float: left;
+  width: 30%;
+  height: 400px;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  color: whitesmoke;
+  background-color: #ccc;
+}
+/* Article Tab */
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: rgb(102, 177, 42);
+  height: 400px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  /* height: 70cm; */
+}
+/* Footable Tab */
+footer {
+  background-color: #777;
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+  }
+
+/* .section {
+  padding: 100;
+} */
+
+/* .footer-1{
+  float: left;
+  color: black;
+
+}
+.email{
+  float: right;
+}
